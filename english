@@ -1,0 +1,63 @@
+ metadata 数据的数据信息
+
+ initial 最初的
+
+ scale 范围,规模   
+
+ compatible 可兼容的
+
+ refresh 刷新
+
+ markup tag 标记 标签
+
+ Element 元素
+
+ source 资源;在指令上意思为:获得资源
+
+ network 网络
+
+ computed 计算
+
+ Event Listeners 事件监听
+
+ filter 过滤器
+
+ border 边界
+
+ order list 有序 列表	<ol>
+
+ unordered list 无序列表    <ul>
+
+ footer 页尾巴
+
+ caption 说明文字
+
+ colspan 跨列
+
+ rowspan 跨行
+
+ rel relationship 关系
+
+ field 大片地方
+
+ font 字型
+ 
+ repeat 重写
+
+ attchment 附属物
+
+ fixed 固定的
+
+ position 位置
+
+ absolute 完全的
+ 
+ role 作用
+
+ equiv 相当的
+
+ expires (因到期而)失效,终止;
+
+ refresh 刷新
+
+ renderer 渲染器

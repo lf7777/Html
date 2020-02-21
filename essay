@@ -1,0 +1,139 @@
+常用标签:
+html head title link script meta body元信息 style img base所有链接默认链接地址
+tr th td 表格 dl dt dd 项目及描述 address 
+form input select下拉列表 textarea多行输入 pre
+br p h
+div p span a ul li strong  
+
+1.class调用的是 .方法
+
+2.id调用的是 #方法
+
+3.调用图片，在当前主目录的imgs文件下不用加/
+例如: imgs/cut.jpg alt="找不到图片"
+
+4.<hr>分割线
+
+5.<br>换行,<br>可以插入到内容当中
+
+6.<pre></pre>自动实现输入的内容换行功能，所以通常用于换行功能
+
+7.<title>, <style>, <meta>, <link>, <script>, <noscript>, and <base>
+
+8.有序列表	
+	<ol>
+	<li>Coffe</li>
+	<li>Milk</li>
+	</ol>
+
+	1.Coffe
+	2.Mike
+
+9.无序列表	
+	<ul>
+	<li>Coffe</li>
+	<li>Milk</li>
+	</ul>
+
+10.table标签 border设置边框
+一个<tr></tr>是一行内容
+
+11.<dl><dl/>定义一个描述列表
+<dt></dt> 项目名
+<dd></dd> 描述内容
+
+Car
+     drive on load
+boat
+     drive in water 
+书写示例:
+<dt>Car</dt>
+<dd>drive on load</dd>
+
+11.select 
+创建下拉列表
+<select>
+<option>定义了列表中的可用选项</option>
+</select>
+
+12.<textarea></textarea>
+多行的文本输入控件
+
+13.<textarea></textarea>
+rows 规定文本框内可见的行数
+cols 规定文本行内可见的宽度
+
+14.<del>blue</del>
+    blue 一条横线将blue分为两段
+
+15.p标签或者h标签写空格,只会显示一个
+
+16.<ins></ins> <u></u>
+显示结果都是一样的,都是下划线
+
+17.<strong></strong> 和 <b></b>
+都是加重效果
+
+18.table表格有边框
+<table border="1"></table>
+
+无边框
+<table></table>
+
+19.带有标题的表格(带有说明文字的)
+<caption></caption>    (翻译:说明文字)
+<table></table>
+
+<th align="left"><>   (left,在表格左边,right表格右边,middle表格中间)
+
+20. colspan 跨列合并
+    rowspan 跨行合并
+
+21.url是css的东西
+src和href是html的东西
+所以在css里引用东西要用url
+
+22.rel relationship的简写,表示关系
+
+23.<a></a>标签只能使用内联系方式控制style样式
+
+24.input的单选 type="radio"
+	  复选 type="checkbox"
+
+25.<input>是单标签
+只能输入一行.	
+多行用<textarea></textarea> 标签
+
+26.控制textarea禁止拖动
+resize:none;
+
+27.目前可识别此 提速标签的 360 浏览器.
+<meta name='renderer' content='webkit'>
+
+28.<del><s>标签都是文本中线.
+<ins>标签是带有下划线的文本.
+<del><ins>一起用代表文档中的 删除 与 修正部分.
+
+29.<input placeolder = 'password'>
+placeolder属性 : 输入框内默认的字.
+
+30.<lable for='某个input标签的id'>Password</lable>标签
+<input id='password'placeolder='password'>
+这样lable和input会进行关联,点击lable标签内的Password会进入输入框内.
+
+31.一个小表单包含一个label和一个input
+这个小表单为一个div
+<div class='form-group'>
+样式为margin-bottom:15px;
+
+32.<meta name='viewport' content='user-scalable=no'>
+user-scalable=no 会使用户不能放大缩小网页的大小.
+
+33.<mark></mark>
+给内容上一个浅肉色背景的标签.
+
+34.<em></em>
+倾斜标签.
+
+35.移动设备优先:
+<meta name='viewport' content='width=device-width,initial-scale(初始化-规模)=1,maximum-scale(最大限度-规模)=1'>
